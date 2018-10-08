@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lJudul" layoutX="191.0" layoutY="49.0" text="FORM LOGIN" />
+      <Label fx:id="lUser" layoutX="74.0" layoutY="88.0" text="Username" />
+      <Label fx:id="iPass" layoutX="74.0" layoutY="127.0" text="Password" />
+      <TextField fx:id="edituser" layoutX="153.0" layoutY="84.0" />
+      <TextField fx:id="editpass" layoutX="153.0" layoutY="123.0" />
+      <Button fx:id="btnOke" layoutX="153.0" layoutY="171.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" text="OKe" />
+      <Button fx:id="btnCancel" layoutX="250.0" layoutY="171.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>
